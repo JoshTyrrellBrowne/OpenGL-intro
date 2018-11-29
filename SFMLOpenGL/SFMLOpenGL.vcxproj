@@ -85,8 +85,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Game.txt" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Part 1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />

@@ -13,6 +13,10 @@ public:
 	Game();
 	~Game();
 	void run();
+
+	int shapeType{ 9 };
+	int m_count{ 0 };
+
 private:
 	Window window;
 	bool isRunning = false;
@@ -21,14 +25,15 @@ private:
 	void draw();
 	void unload();
 
-	// // Uncomment for Part 2
-	// // ********************
-	// const int primatives;
+	 // Uncomment for Part 2
+	 // ********************
+	 const int primatives;
 
-	//GLuint index;
-	//Clock clock;
-	//Time elapsed;
+	GLuint index;
+	Clock clock;
+	Time elapsed;
 
-	//float rotationAngle = 0.0f;
-	// // ********************
+	float rotationAngle = 0.0001f;
+	float myRotationAngle = 0.1f;
+	 // ********************
 };
